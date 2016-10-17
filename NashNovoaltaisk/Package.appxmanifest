@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="a7d68423-92f4-45d6-a5ca-76cf034990ee"
-    Publisher="CN=eveks"
+    Name="ce10b666-5863-4ce0-bacb-ab7d27b7e53a"
+    Publisher="CN=User"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="a7d68423-92f4-45d6-a5ca-76cf034990ee" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ce10b666-5863-4ce0-bacb-ab7d27b7e53a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>NashNovoaltaisk03</DisplayName>
-    <PublisherDisplayName>eveks</PublisherDisplayName>
+    <DisplayName>NashNovoaltaisk</DisplayName>
+    <PublisherDisplayName>User</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="NashNovoaltaisk03.App">
+      EntryPoint="NashNovoaltaisk.App">
       <uap:VisualElements
-        DisplayName="NashNovoaltaisk03"
+        DisplayName="NashNovoaltaisk"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="NashNovoaltaisk03"
+        Description="NashNovoaltaisk"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
